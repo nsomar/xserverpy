@@ -1,0 +1,48 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: GET
+    uri: https://127.0.0.1/xcode/api/bots
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+1W226kRhD9lYjnYdw0zc1vXGYSK6tdy+PdRFpZFjTFTGeBJg14l1j+91SDZ8Y7
+        cRJs5SGJ9glBV9U5VXWo6nuDy77ujHNrYSho+7JrjfOP98atyI1zw/d54ANQq7D9wPFYANz2fT8L
+        bEIsLwNjYdwquENLi5gpswrfY+CmDoDDnBwfqZ2RgHAKrCjQeKtk3xjn90adVoBeoRutqb2mZrBa
+        JyZbO4EZOK5rxm7CvIC6LA4i42GBHOtCbHuVdkLW2j/rRdmtlaziElL8QhZGA0rIXPAN30Hel3BR
+        d6Du0nI85DKHWN6BSrdwqaAABTVHBnT0K6Sq2mtou5BPAEVatrAwOiW2W1C6IjdHw7BOy+E3OLFt
+        EbaCt1NeOlYmsZQLA740UnXtpZJ5z0fKoeI7cYdmneo1CNqKepvAneBwkTyC5ePrpgEuCsEPeReY
+        9kTo3mjKtNOE9PepXQyrTy2f+cQCz3cDoDSzGbepT4hNbR/p5KJFv+GRp3i3ObaQmSmnFmHMooVr
+        FSR3qE3d3M28wskgJ6Db3YqqR1ypLnKoO+QGCl25rJZp05Sw3JNaimYnaziYo6uY5SF10XR787d9
+        lY22lh0ymzhbPMAOtmMpjGBJtDKmglwPDYx9TnVtO+Bdr+Dx48OhmkfKY5HR+zPAp3LYKyZJhzFI
+        JeoeuxIWGPkH2atrqbW0RfVNIO2j/QRgL4wdGr0r9kYjP/JEL1O/93o56bp+jD6HHFqMxlGtdadk
+        GZU9NEroP/TeSD5cb54e/iTVp7ZJORys3shJK+2PMGgPwlbE9qPIs2wr8pKExVawdpxgxdZxSKJo
+        tfIS4sXsueiRSmu+OxZtDGlUaYtlwVY8b/6uOcJTi/3R7M856wJMGM+HNh4e5oS7VKJK1XAFlezg
+        ChrZCtTfMEWeXY85SPoL9jCWzXDEOenALMqnXMO+2+mqT5E2nVbeVsA/0dSXgv9FU9JW8GeZDjM7
+        9aR+mw4dX54fmYVzKmFmMUojwswoXK1MFtiJGflBaHrEi1ZxaCWU0pcK4DLtdi/nP46BW70pzoxZ
+        qei5PSXxZMX8vduH/dikxJ4nSBzKOLN0VtcSd9cvOFK/xl1+0Tu1waNZDE5Uthfzx9co9P3Vm4nL
+        ruua9vzsbCu6XZ8tcaecyVSpNBNnh8Iu8fA1DIfNgIOumoCO2yrvlj/rxJfTlOZTtOX3rwQ5leZs
+        6Tzc6H9Mwa+9wGvb+wYXTw6Hy0j99TXku0hqet24YfCiJ46b6na8/uk16+CalPx2MjKyyUPUw0WC
+        r5QRFsX6AlHi/L/Cdar19N9ZTnvoPfPJPM+o77l54bscp4AXMNfzoMhz7gVBUDAOeGZ5xJ217Rzy
+        v152p6V2wpg4NqUmXbu+ySx7bfpJvDLXMfOpH8ZJZAXfhui3IfpvH6I3D78DK9ghmAMPAAA=
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Thu, 23 Jul 2015 20:53:31 GMT']
+      keep-alive: ['timeout=5, max=100']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AJdnEQAQZ-Rl_QZHhytLzng-cyjr5HKDl.1s1WN%2BJMg4hLLZUqYZAx%2FD%2FOcqgjs8l%2BRLPMzBcFMWI;
+          Path=/; Expires=Fri, 24 Jul 2015 20:53:31 GMT; HttpOnly; Secure']
+      vary: [Accept-Encoding]
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [OK]
+      x-xcsresultslist: ['true']
+    status: {code: 200, message: OK}
+version: 1

@@ -1,0 +1,66 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: GET
+    uri: https://127.0.0.1/xcode/api/integrations/88c98ee21f3895749ec3888b93009ea3
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Thu, 23 Jul 2015 21:59:08 GMT']
+      keep-alive: ['timeout=5, max=100']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AsiGtgnr-zaKeM19TmkOTCdjFRui90jQ6.blflXSye5bcKXoAyfyGCFnrvDNH2TBAW8N0%2BAGfdj3w;
+          Path=/; Expires=Fri, 24 Jul 2015 21:59:08 GMT; HttpOnly; Secure']
+      vary: [Accept-Encoding]
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [OK]
+    status: {code: 200, message: OK}
+version: 1

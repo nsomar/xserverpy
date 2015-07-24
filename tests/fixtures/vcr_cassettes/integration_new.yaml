@@ -1,0 +1,51 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: POST
+    uri: https://127.0.0.1/xcode/api/bots/88c98ee21f3895749ec3888b930017be/integrations
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+1X227bRhD9lYLPprxcLm9640VqjQaxYTlp0SAwlsuhtLXEZZakGzbwv3eW1C2q
+        28hBH9oiTwS5czkzczgz+8m6l4U1tcJQRCEAdUo3jLyARSDcMAzzyCWUlIxYF9a9hkeUdG0aiNIp
+        /DAPclKEJRMR93weOG7BeRi5gLK5aq3ppy/bJk6Qw8G249ucBW5Og9zLWcRK13OB5g73csejvidC
+        F4WXWnW1MV/xDaBW7Cdz6s6pHc3mmc3mXmRHnu/bqZ+xIKI+S6PEerqwhKpKuew0b6WqjH7eyXU7
+        12qTroHjF3Jh1aClKqRYiBUU3Rquqhb0I18Ph0IVkKpH0HwJNxpK0FAJREAHvVLpTXMHTRuL0UHJ
+        1w1cWK2WyyXoxpq+e38QjCu+7n+HE9kG3W7g9RiXsYWJbDBk+Fgr3TY3WhWdGCDHWqzkI4q1ujNO
+        UFZWywwepYCrbOusGF4XNQhZSrGPu8SwR0CfrHrNWwPoUC4WMKxVyELiQBD6EVCau0y4NCTEpW6I
+        cArZoF6/xSmvF4cSMpsL6hDGHFr6TkkKj7rUL/w8KL0cCgKm3I3cdOhX6asCqhaxgUZVoTYTXtdr
+        mOxATWS9UhXsxVFVnqWhTNJMeYvX3SYfZB03Zi7xlniAFWyGVFjRhBhmjAm562sY6sxNblsQbadh
+        +/Fpn80D5CHJqP0bwMO63zEm4/1gZCOrDqsSl2j5B9XpO2W4tET2jU6arfzowL2wVih0Xe6EBnzk
+        iC9jvXd8Oam6eQw6+xgatCaQrVWr1TpZd1BrWQ0/Zfb2bnF8+JPSD03NBeylXqmRK82P0BsNwmbE
+        DZMEf3EnCbKMpU4097xoxuZpTJJkNgsyEqTsOeuJ5pVYHZI2mLQ2vMG0YCmeF7+uD+6pw/4s9teY
+        TQJGH8+btp6ezjF3o+WG6/4WNqqFW6hVI5F//Wj57Hyc48l8wRqmqu4Pfk4qcBbkU6xx165M1kdL
+        i9YwbynhnyjqS53/TVF4I8WzSPszK3WUv0WLii+Pj5zl55TCzGGUJoTZSTyb2SxyMzsJo9gOSJDM
+        0tjJKKUvJcANb1cvxz+0gXszKS6ts0IxfXsM4mjEfFnt7a5tUuKeR0hsytizTFR3CmfXr9hSP/c7
+        +Whmao1HZyE4YdmOzO++hqFvbl+NWFZtWzfTy8ulbFddPsGZcqm41jyXl/vETvDwaxD2ix4b3WZ0
+        dJhWRTv52QQ+Gbu0GK1Nvv9KJ6fUPJs6T+/NP6bhQyc1NG9qHDwF7JeR6vM15LtEGXjtMGEcnMSH
+        SXUvVGcWJWsa4phU4n4UGtZA1JBVf5XhK2WEJalZINbY/29xnBo+/XeG0871DvkoXuQ0DPyiDH2B
+        XSCImB8EUBaFCKIowu0Y8MwJiH/WtPPI/3rYnabaS7xZNg+pHWZ+iqt7GtmxR3CJj9MkiiN/7rDg
+        WxP91kT//U20wfV9XWwvktsGKjqNN8R20QJeV3GTrwqkKIKrtncSbJYfOuigyIZLgUWJ49kksKl7
+        R+nUCabEnTgs/MXcmDohoGnum1YDfxg2/KM+e9SKj/ttlDjJPMa77x/dKgi05g8AAA==
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Thu, 23 Jul 2015 22:17:03 GMT']
+      keep-alive: ['timeout=5, max=100']
+      location: ['https://127.0.0.1:20343/integration/88c98ee21f3895749ec3888b93020f40']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AHAfj-YlSBVmdYggC3-lIu5i0AeUUCh97.c2LPVIFUhN1zD9y4xhaI6fVQkCYhisBHQ1usPazstFQ;
+          Path=/; Expires=Fri, 24 Jul 2015 22:17:03 GMT; HttpOnly; Secure']
+      vary: ['X-HTTP-Method-Override,Accept-Encoding']
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [Created]
+    status: {code: 201, message: Created}
+version: 1
