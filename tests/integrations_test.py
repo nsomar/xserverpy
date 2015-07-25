@@ -24,3 +24,11 @@ class TestIntegrations(unittest.TestCase):
     def test_can_request_new_integration(self):
         b = Integrations(self.server, "88c98ee21f3895749ec3888b930017be")
         self.assertIsNotNone(b.integrate())
+
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/integration_cancel.yaml')
+    def test_can_cancel_integration(self):
+        i = Integrations(self.server, "88c98ee21f3895749ec3888b930017be")
+        integration = i.integrate()
+        self.assertIsNotNone(integration)
+        result = i.cancel_integration(integration.id)
+        self.assertTrue(result)

@@ -1,0 +1,79 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic YWE6cGFzcw==]
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: POST
+    uri: https://127.0.0.1/xcode/api/bots/88c98ee21f3895749ec3888b930017be/integrations
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+1X247bNhD9lULPKy9JUbd908VuFw2axXqTFg2ChUyNbDayqFDUNm6w/96h5Fuc
+        beMN+tAWeTJMzuXMzNHM8KNzL0vnyokiEUcAjFZeFPshj0F4URQtYo+CH5Wec+Hca3hASc+tgoJS
+        j9LII1BQ3/NAVBFQsqBVWcbAUXahjHP18Yu2CaHhAg62WUhcGgWVH4kyDKD0wjgmvCAFlL7HwI9D
+        P0bppVZ9a+03xRpQLQnSGfNmzI2ns9zlMz92Yz8I3CzIeRizgGdx6jxeOEI1lVz2ujBSNVZ/0cva
+        zLRaZzUUeEIunBa0VKUUc7GCsq/hujGgH4p6uBSqhEw9gC6WcKOhAg2NQARs0KuUXnd30JlEjA6q
+        ou7gwjFaLpegO+fqzduDYNIU9eYPOJHt0O0afhrjsrYwkx2GDB9apU13o1XZiwFyosVKPqCY0b11
+        grKyWebwIAVc51tn5fB33oKQlRT7uCsMewT00WnrwlhAh3rxkGOxIh4RCmEUxMDYwuPCYxEhHvMi
+        hFPKDvU2W5zy5fxQQ+4WglHCOWVVQCtS+sxjQRkswspfQEnA1ruT6x79Kn1dQmMQG2hUFWo9Kdq2
+        hskO1ES2K9XAXhxV5VkayibNlrf8qV8vBlnqJdwj/hIvsILdkAonnhDLjDEhd5sWhjoXNrcGhOk1
+        bA8f99k8QB6SjNq/A7yrNzvG5MVmMLKWTY9VSSq0/IPq9Z2yXFoi+0Yn3VZ+dOBdOCsUelnthAZ8
+        5IgvY713fDmpuv0ZdPYxdGhNIFsbo1Wd1j20WjbDV5m/vpsfX/6s9LuuLQTspV6okSvdj7CxGoRP
+        iRelaYiffRrmOc9oPPP9eMpnWULSdDoNcxJm/CnrqS4asTokbTDprIsO04KleFr8ZXtwzyj/XOyv
+        MdsEjD6eNu08Pp5j7kbLdaE3t7BWBm6hVZ1E/m1Gy2fn4xxP9gRrmKl2c/BzUoGzIJ9iTXqzslkf
+        Lc2NZd5Swj9R1Oc6/5uiFJ0UTyLdnFmpo/zNDSo+Pz5ylp9TCnPKGUsJd9NkOnV57OVuGsWJG5Iw
+        nWYJzRljzyXATWFWz8c/tIF7OykunbNCsX17DOJoxHxZ7fWubTLinUdIbMrYs2xUdwpn12/YUj/1
+        O/lgZ2qLV2chOGHZjsxvvoahr25fjFhWxrTd1eXlUppVv5jgTLlUhdbFQl7uEzvBy69BuJlvsNGt
+        R0eHaVWayS828MnYpcVobfL9Vzo5pebZ1Hl8a78xDe97qaF71eLgKWG/jDSfriHfpcrCM8OEoTiJ
+        D5PqXqjeLkp47oU4KJW4H8WGTRB1ZLO5zu2GxwlPM7tC1DgBbnGgWkb9d8bTzvUO+SheLlgUBmUV
+        BQL7QBjzIAwBl2GB+2tccQF4R0MSnDXvfPK/HneftdEoCJMkJm4e4crOs1nqxtRnbhhkfhZxluAD
+        41sb/dZG//1ttMMFvi63T8ltCxW9xjeimRvAByvu8k2JFEVwzfZVMrTL9z30UObDw8BhhPouCV3G
+        7xi7IvSKkgkC+NW+mnohoOvuO6OheDds+Ued9qgdH3fcLKKzfMqcxz8BjVmN1esPAAA=
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Fri, 24 Jul 2015 22:01:10 GMT']
+      keep-alive: ['timeout=5, max=100']
+      location: ['https://127.0.0.1:20343/integration/88c98ee21f3895749ec3888b931e58d3']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3A3PP19WPhj50rltUO5MZ29nPYcNbz6V8c.Jv5Je%2BdzmmY69%2F7DdHMdOiahZxMsiJfd7IxDhwW73xM;
+          Path=/; Expires=Sat, 25 Jul 2015 22:01:10 GMT; HttpOnly; Secure']
+      vary: ['X-HTTP-Method-Override,Accept-Encoding']
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [Created]
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic YWE6cGFzcw==]
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: POST
+    uri: https://127.0.0.1/xcode/api/integrations/88c98ee21f3895749ec3888b931e58d3/cancel
+  response:
+    body: {string: !!python/unicode ''}
+    headers:
+      connection: [Keep-Alive]
+      content-length: ['0']
+      date: ['Fri, 24 Jul 2015 22:01:11 GMT']
+      etag: [W/"a-b541a50d"]
+      keep-alive: ['timeout=5, max=100']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AWZxay2LeSHihKeUWkq9LHANkmDSRsU7Z.5Gliudr8o3u1z3U84QJtXJBUBg%2FK%2BowD3y5pvO3CXlM;
+          Path=/; Expires=Sat, 25 Jul 2015 22:01:11 GMT; HttpOnly; Secure']
+      vary: [X-HTTP-Method-Override]
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [No Content]
+    status: {code: 204, message: No Content}
+version: 1

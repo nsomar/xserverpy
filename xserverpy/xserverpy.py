@@ -12,19 +12,29 @@ import sys
 
 
 def start():
-    args = parse()
+    start_with_args(None)
+
+
+def start_with_args(params):
+    args = parse(params)
 
     if args.version:
         print_version()
 
-    if args.bots:
-        handle_bots(args)
+    try:
+        if args.bots:
+            handle_bots(args)
 
-    if args.integrations:
-        handle_integrations(args)
+        if args.integrations:
+            handle_integrations(args)
 
-    if args.integrate:
-        handle_integrate(args)
+        if args.cancel:
+            handle_cancel(args)
+
+        if args.integrate:
+            handle_integrate(args)
+    except Exception as e:
+        error(e)
 
 
 def print_version():
@@ -33,44 +43,46 @@ def print_version():
 
 
 def handle_bots(args):
-    try:
-        s = XcodeServer(host=args.host, port=args.port, user=args.user, password=args.password)
-        b = Bots(s)
-        printer = BotsPrinter(b.get_all())
-        printer.print_items()
-    except Exception as e:
-        error(e)
+    s = XcodeServer(host=args.host, port=args.port, user=args.user, password=args.password)
+    b = Bots(s)
+    printer = BotsPrinter(b.get_all())
+    printer.print_items()
 
 
 def handle_integrations(args):
-    try:
-        server = XcodeServer(host=args.host, port=args.port, user=args.user, password=args.password)
-        bot = get_bot(server, args)
+    server = XcodeServer(host=args.host, port=args.port, user=args.user, password=args.password)
+    bot = get_bot(server, args)
 
-        integrations = Integrations(server, bot_id=bot.id)
-        printer = IntegrationsPrinter(integrations.get_all())
-        info("\nListing all integrations for bot '%s'" % bot.name)
-        printer.print_items()
-    except Exception as e:
-        error(e)
+    integrations = Integrations(server, bot_id=bot.id)
+    printer = IntegrationsPrinter(integrations.get_all())
+    info("\nListing all integrations for bot '%s'" % bot.name)
+    printer.print_items()
 
 
 def handle_integrate(args):
-    try:
-        server = XcodeServer(host=args.host, port=args.port, user=args.user, password=args.password)
-        bot = get_bot(server, args)
-        integrations_service = Integrations(server, bot_id=bot.id)
-        integration = integrations_service.integrate()
+    server = XcodeServer(host=args.host, port=args.port, user=args.user, password=args.password)
+    bot = get_bot(server, args)
+    integrations_service = Integrations(server, bot_id=bot.id)
+    integration = integrations_service.integrate()
 
-        if args.watch:
-            add_watcher(integrations_service, integration, bot.name)
-        else:
-            success("Integration number '%s' for bot '%s' posted successfully" %
-                    (integration.number, bot.name))
-            info("Integration ID '%s" % integration.id)
+    if args.watch:
+        add_watcher(integrations_service, integration, bot.name)
+    else:
+        success("Integration number '%s' for bot '%s' posted successfully" %
+                (integration.number, bot.name))
+        info("Integration ID '%s" % integration.id)
 
-    except Exception as e:
-        error(e)
+
+def handle_cancel(args):
+    server = XcodeServer(host=args.host, port=args.port, user=args.user,
+                         password=args.password)
+    integrations_service = Integrations(server)
+    result = integrations_service.cancel_integration(args.id)
+
+    if result:
+        success("Integration with id '%s' cancelled successfully" % args.id)
+    else:
+        error("Failed to cancel integration with id '%s'" % args.id)
 
 
 def add_watcher(integrations_service, integration, bot_name):
@@ -105,3 +117,4 @@ def is_id(string):
         return True
     except:
         return False
+

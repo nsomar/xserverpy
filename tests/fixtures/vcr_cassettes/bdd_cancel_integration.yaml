@@ -1,0 +1,135 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic T21hciBBYmRlbGhhZml0aDpvbWFyb21hcjEyMw==]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: GET
+    uri: https://127.0.0.1/xcode/api/bots
+  response:
+    body:
+      string: !!binary |
+        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
+        AA==
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Sat, 25 Jul 2015 00:08:26 GMT']
+      keep-alive: ['timeout=5, max=100']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AWPUHkJmzgG-z-aCXP16rEQ1B84TEG0jn.hYBBLt%2BMhC4W%2Fq1K7%2FLP22EDpQWXSaY2xum1SrrW8qI;
+          Path=/; Expires=Sun, 26 Jul 2015 00:08:26 GMT; HttpOnly; Secure']
+      vary: [Accept-Encoding]
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [OK]
+      x-xcsresultslist: ['true']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic T21hciBBYmRlbGhhZml0aDpvbWFyb21hcjEyMw==]
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: POST
+    uri: https://127.0.0.1/xcode/api/bots/88c98ee21f3895749ec3888b930017be/integrations
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+1XbW/bNhD+K4M+Rw5JUW/5Zkn2FqxogzjthhVFQFEnm6ssqpSU1Svy33eU/FYv
+        W51iH7ahnwSJ9/Lc3aO74yfnXhXOlRNFMo4AGC29KPZDHoP0oijKY4/RopDEuXDuDTygpOd6eSB8
+        GXglCFFEgkYFL8MyDCOPBVTQEmVz3TlXn75omxAa5nBkmwRuzKmkQHMviCU+ipwAycOCAQial0WA
+        0kuj+8bar8UaUG0aJHPmzZkbz+aZy+d+7MZ+ELhpkPEwZgFP48R5vHCkrku17I3olK6tft6rqpsb
+        vU4rEPiFXDgNGKULJRdyBUVfwXXdgXkQ1XAodQGpfgAjlnBjoAQDtUQEbNArtVm3d9B2Uzk6KEXV
+        woXTGbVcgmmdq7fvDoLTWlSb3+FEtkW3a3g5xmVtYSZbDBk+Ntp07Y3RRS8HyFMjV+oBxTrTWyco
+        q+plBg9KwnW2dVYMr4sGpCqV3MddYtgjoE9OU4nOAjrUi4ccixXxiFAIoyAGxnKPS49FhHjMixBO
+        oVrU22xxqleLQw25KySjhHPKyoCWpPAZ8qII8rD0cygI2Hq3at2jX22uC6g7xAYGVaVeT0TTVDDZ
+        gZqoZqVr2IujqjpLQ9uk2fIWL/t1PshSb8o94i/xACvYDqlw4gmxzBgTcrdpYKizsLntQHa9ge3H
+        x302D5CHJKP2bwDvq82OMZnYDEbWqu6xKtMSLf+ge3OnLZeWyL7RSbuVHx14F84KhV6VO6EBHzni
+        y1jvHV9Oqm4fg84+hhatSWRr3RldJVUPjVH18Fdmb+4Wx4c/afO+bYSEvdQLPXKl/RE2VoPwGfGi
+        JAmpR5Mwy3hK47nvxzM+T6ckSWazMCNhyp+ynhhRy9UhaYNJZy1aTAuW4mnxV83BPaP8z2J/jdkm
+        YPTxtGnn8fEcczdGrYXZ3MJad3ALjW4V8m8zWj47H+d4sl+whqluNgc/JxU4C/Ip1mnfrWzWR0uL
+        zjJvqeCfKOpznf9NUUSr5JNIN2dW6ih/iw4Vnx8fOcvPKYU55YwlhLvJdDZzeexlbhLFUzckYTJL
+        pzRjjD2XADeiWz0f/9AG7u2kuHTOCsX27TGIoxHzZbU3u7bJiHceIbEpY8+yUd1pnF2/Ykv93O/k
+        o52pDR6dheCEZTsyv/0ahr6+fTFiWXVd015dXi5Vt+rzCc6USy2MEbm63Cd2godfg3Cz2GCjW4+O
+        DtOq6CY/28AnY5eWo7XJ91/p5JSaZ1Pn8Z39xwx86JWB9nWDg6eA/TJSf76GfJdoC68bJgzFSXyY
+        VPdS93ZRwu9+gINSy/tRbNgEUUfVm+sMXxknPEntClHhBLjFgWoZ9d8ZTzvXO+SjeJGzKAyKMgok
+        9oEw5kEYQol7cxjHcckl4BkNSXDWvPPJ/3rcnaY6TtMU+6bvzr00dvksTXGNTzOX+TxKPUpmPE2+
+        tdFvbfTf30ZbXOCrYnuV3LZQ2Ru8I3aLDvDCirt8XSBFEVy9vZUM7fJDDz0U2XAxcBihvktC5P8d
+        IVckumLBxI/pL/bW1EsJbXvfdgbE+2HLP+q0R+34s44bU05ivOX8AU6BwtfrDwAA
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Sat, 25 Jul 2015 00:08:26 GMT']
+      keep-alive: ['timeout=5, max=100']
+      location: ['https://127.0.0.1:20343/integration/88c98ee21f3895749ec3888b9321ddc0']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3APPiSOld1DsEM3h2XZepuHX4zGIaQi436.%2F73pei%2BKeeTK3Fy57h9iH5dbuAHJ1GwqzVEtlTwZ4Hs;
+          Path=/; Expires=Sun, 26 Jul 2015 00:08:26 GMT; HttpOnly; Secure']
+      vary: ['X-HTTP-Method-Override,Accept-Encoding']
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [Created]
+    status: {code: 201, message: Created}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic T21hciBBYmRlbGhhZml0aDpvbWFyb21hcjEyMw==]
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: POST
+    uri: https://127.0.0.1/xcode/api/integrations/Testbots%20Bot/cancel
+  response:
+    body: {string: !!python/unicode ''}
+    headers:
+      connection: [Keep-Alive]
+      content-length: ['0']
+      content-type: [application/json]
+      date: ['Sat, 25 Jul 2015 00:08:27 GMT']
+      keep-alive: ['timeout=5, max=100']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AmPV5XPgy6hkSuq3luqo0_rZRHwl654LV.2Jf%2FyacnZseW9ITQ7VhmY3ucjI8yQkbGzrewk%2BM%2BgE0;
+          Path=/; Expires=Sun, 26 Jul 2015 00:08:27 GMT; HttpOnly; Secure']
+      vary: ['X-HTTP-Method-Override,Accept-Encoding']
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-message: ['Not found: [dbCoreClass - xcsDBCoreClassFindDocumentWithUUIDInCouchDB]
+          error retrieving document ''Testbots Bot'': missing']
+      x-xcsresponse-status-title: [Not Found]
+    status: {code: 404, message: Not Found}
+version: 1

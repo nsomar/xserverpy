@@ -1,0 +1,106 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic T21hciBBYmRlbGhhZml0aDpvbWFyb21hcjEyMw==]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: GET
+    uri: https://127.0.0.1/xcode/api/bots
+  response:
+    body:
+      string: !!binary |
+        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
+        AA==
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Fri, 24 Jul 2015 23:46:30 GMT']
+      keep-alive: ['timeout=5, max=100']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AW7mf_fy-37wmacEMZNZ2499COGwA2LxI.jmbYNtDGXOHYG7jX1RKIZ%2BKyNh1rVVzwE7dmBhlUbd4;
+          Path=/; Expires=Sat, 25 Jul 2015 23:46:30 GMT; HttpOnly; Secure']
+      vary: [Accept-Encoding]
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [OK]
+      x-xcsresultslist: ['true']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic T21hciBBYmRlbGhhZml0aDpvbWFyb21hcjEyMw==]
+      Connection: [keep-alive]
+      Content-Length: ['0']
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: POST
+    uri: https://127.0.0.1/xcode/api/bots/88c98ee21f3895749ec3888b930017be/integrations
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+1XbW/bNhD+K4M+Rw5FUaKYb5Jlb8GKNojTblhRBBJ5srXaokpJWbUi/31HyW/1
+        stUp9mEb+sk2eS/P3T2+O35y7kvlXDlRJEUEQL3Cj0TAmQDpR1GUC9/D05w7F869gQeU9F0WkNwL
+        80IEfs4491RBA8FCDiJQkfIilM1161x9+qJtQjyew8E25ZFLZJgpyhXnVOG3LJcyDyX3uVB+EfAA
+        pZdGd7W1X2UbQLU4TObUn1NXzOapy+aBcEUQhu40TBkXNGRTkTiPF47UVVEuO5O1pa6sft6V63Zu
+        9Ga6hgxPyIVTgym1KuVCrkB1a7iuWjAP2Xq4lFrBVD+AyZZwY6AAA5VEBHTQK7TZNHfQtLEcHRTZ
+        uoELpzXlcgmmca7evjsIxlW27n+HE9kG3W7g5RiXtYWZbDBk+Fhr0zY3RqtODpBjI1flA4q1prNO
+        ULaslik8lBKu060zNfxc1CDLopT7uAsMewT0yanXWWsBHerFOMNiRSwiHvAoFEBp7jPp04gQn/q2
+        vqpsUK/f4ixfLQ41ZG4mqUcY82gRegVRAfVpqMKcF0EOioCtd1NuOvSrzbWCqkVsYFBV6s0kq+s1
+        THagJmW90hXsxVG1PEtD26TZ8qqX3SYfZD0/Zj4JlniBFWyGVDhiQiwzxoTc9TUMdc5sbluQbWdg
+        e/i4z+YB8pBk1P4N4P263zEmzfrByKasOqxKXKDlH3Rn7rTl0hLZNzpptvKjA//CWaHQq2InNOAj
+        R3wZ673jy0nV7cegs4+hQWsS2Vq1Rq+TdQe1KavhX5m+uVscX/6kzfumziTspV7okSvNj9BbDcJm
+        xI+ShHu+l/A0ZVNPzINAzNh8GpMkmc14SviUPWU9MVklV4ekDSadTdZgWrAUT4u/qg/uqcf+LPbX
+        mG0CRh9Pm3YeH88xd2PKTWb6W9joFm6h1k2J/OtHy2fn4xxP9gRrONV1f/BzUoGzIJ9ijbt2ZbM+
+        Wlq0lnnLEv6Joj7X+d8UJWtK+STS/sxKHeVv0aLi8+MjZ/k5pTDzGKUJYW4Sz2YuE37qJpGIXU54
+        MpvGXkopfS4BbrJ29Xz8Qxu4t5Pi0jkrFNu3xyCORsyX1d7s2iYl/nmExKaMPctGdadxdv2KLfVz
+        v5OPdqbWeHUWghOW7cj89msY+vr2xYhl1bZ1c3V5uSzbVZdPcKZc6syYLC8v94md4OXXIOwXPTa6
+        zejoMK1UO/nZBj4Zu7QcrU2+/0onp9Q8mzqP7+x/zMCHrjTQvK5x8CjYLyPV52vId4m28Nphwng4
+        iQ+T6l7qzi5KeM5wGVJa3o9iwyaIOmXVX6d2w2OEJVO7QqxxAtziQLWM+u+Mp53rHfJRXOU04qEq
+        olBiH+B2GeZQKCW5EKJgEvDO4yQ8a94F5H897k5THcVJKngcufOEC5cRmriREJHrRzN8W8QipU/m
+        7Vsb/dZG/2VttMEFfq22T8ltC5WdwTdiu2gBH6y4y1cKKYrgqu2rZGiXHzroQKXDw8ChxAtcwl3K
+        7qh/xcIrn0x4yH6xr6ZOSmia+6Y1kL0ftvyjTnvUjo87bux5QerFzuMfpIdM6usPAAA=
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Fri, 24 Jul 2015 23:46:31 GMT']
+      keep-alive: ['timeout=5, max=100']
+      location: ['https://127.0.0.1:20343/integration/88c98ee21f3895749ec3888b931ee2b7']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AdYPYyOyJ1I1PYfmPVKNqRURDldyD1ag3.9fqdwyO76%2FhusWUCmK0VaB5n4Q%2F5Ia9wCbBREbKpEK8;
+          Path=/; Expires=Sat, 25 Jul 2015 23:46:30 GMT; HttpOnly; Secure']
+      vary: ['X-HTTP-Method-Override,Accept-Encoding']
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [Created]
+    status: {code: 201, message: Created}
+version: 1
