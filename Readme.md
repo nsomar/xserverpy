@@ -85,3 +85,8 @@ When using `xserverpy integrations new --wait`, xserverpy keeps polling Xcode se
 - Create Jenkins plugin to embed Xcode server tasks in Jenkins
 - Implement show all pending integrations
 - Improve code coverage
+
+# Author
+Omar Abdelhafith 
+[nsomar](http://nsomar.com), [nsomar medium](https://medium.com/@nsomar), [@ifnottrue](https://twitter.com/ifnottrue)
+
