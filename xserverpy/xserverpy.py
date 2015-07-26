@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 from lib.cli import parse
 from display.bots_printer import BotsPrinter
 from display.integrations_printer import IntegrationsPrinter
@@ -15,6 +16,8 @@ from utils import config
 
 
 def start():
+    reload(sys)
+    sys.setdefaultencoding('utf8')
     start_with_args(None)
 
 
@@ -100,9 +103,9 @@ def handle_cancel(args):
 
 def handle_init(args):
     settings = get_settings(args)
-    settings.store(True)
-    path = Settings.storage_path(True)
-    success("Settings saved successfully to `%s`" % path)
+    settings.store(not args.local)
+    path = Settings.storage_path(not args.local)
+    success("Settings saved successfully to '%s'" % path)
 
 
 def handle_running(args):
@@ -144,7 +147,6 @@ def get_bot(settings, args):
     method_name = ["get_named", "get_item"][is_id(args.bot)]
     method = getattr(bots_service, method_name, None)
     bot = method(args.bot)
-
     if not bot:
         name_or_id = ["with name", "with id"][is_id(args.bot)]
         raise RuntimeError("Bot %s '%s' cannot be found" % (name_or_id, args.bot))

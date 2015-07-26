@@ -49,8 +49,7 @@ class CliTests(unittest.TestCase):
             start_with_args(args)
             out = output
 
-        self.assertIn("\x1b[32mIntegration number '142' for bot 'Testbots Bot' posted" +
-                      " successfully\x1b[0m", out)
+        self.assertIn("Integration number '142' for bot 'Testbots Bot' posted successfully", out)
 
     @vcr.use_cassette('tests/fixtures/vcr_cassettes/bdd_bots.yaml')
     def test_can_list_bots(self):

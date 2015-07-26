@@ -7,3 +7,4 @@ tabulate
 pytz
 tzlocal
 mock
+-e git+https://github.com/pyinstaller/pyinstaller.git@develop#egg=Package

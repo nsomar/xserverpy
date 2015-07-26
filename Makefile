@@ -13,6 +13,7 @@ help:
 	@echo "release - package and upload a release"
 	@echo "dist - package"
 	@echo "install - install the package to the active Python's site-packages"
+	@echo "pyinstaller - create executable"
 
 clean: clean-build clean-pyc clean-test
 
@@ -38,7 +39,7 @@ lint:
 	flake8 xserverpy tests
 
 test:
-	python setup.py test
+	py.test tests
 
 test-all:
 	tox
@@ -68,3 +69,6 @@ dist: clean
 
 install: clean
 	python setup.py install
+
+pyinstaller:
+	pyinstaller xserverpy.py --onefile -F --distpath out/

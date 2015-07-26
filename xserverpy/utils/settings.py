@@ -59,7 +59,6 @@ class Settings():
     def store(self, is_global, file_name="xserverpy"):
         to_store = {"user": self.user.__dict__, "server": self.server.__dict__}
         path = self.storage_path(is_global, file_name)
-
         with open(path, 'w') as outfile:
             json.dump(to_store, outfile, indent=4, separators=(',', ': '))
 

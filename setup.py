@@ -7,10 +7,6 @@ try:
 except ImportError:
     from distutils.core import setup
 
-
-with open('README.rst') as readme_file:
-    readme = readme_file.read()
-
 with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
@@ -32,7 +28,6 @@ setup(
     name='xserverpy',
     version='0.1.0',
     description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
-    long_description=readme + '\n\n' + history,
     author="Omar Abdelhafith",
     author_email='o.arrabi@me.com',
     url='https://github.com/oarrabi/xserverpy',

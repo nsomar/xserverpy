@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from xserverpy.utils.config import *
 from tabulate import tabulate
 
