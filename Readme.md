@@ -4,13 +4,13 @@
 
 Xserverpy makes it possible to use Xcode bots from the command line.
 
-![Preview](/Users/nsomar/Documents/Python/xserverpy/assets/preview.gif)
+![Preview](https://raw.githubusercontent.com/oarrabi/xserverpy/master/assets/preview.gif)
 
 # Use cases
 - Running Xcode server tasks, like new integration (ie. Build project) or list bots, without the need to install or run Xcode.
 - Build Xcode bots from another CI tool like Jenkins (see [Future milestones and improvements](#future-milestones-and-improvements).
 - You love ASCII progress bars (or Nikola Tesla's inventions)
-![Progress](/Users/nsomar/Documents/Python/xserverpy/assets/progress.gif)
+![Progress](https://raw.githubusercontent.com/oarrabi/xserverpy/master/assets/progress.gif)
 
 # Installation
 

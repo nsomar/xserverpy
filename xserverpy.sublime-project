@@ -2,15 +2,9 @@
 	"build_systems":
 	[
 		{
-			"name": "Build123",
-			"shell_cmd": "py.test",
+			"name": "Build Project",
+			"shell_cmd": "make test",
 			"working_dir": "${project_path:${folder}}"
-		},
-		{
-			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-			"name": "Anaconda Python Builder",
-			"selector": "source.python",
-			"shell_cmd": "python -u \"$file\""
 		}
 	],
 	"folders":
