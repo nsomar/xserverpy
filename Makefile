@@ -20,9 +20,10 @@ clean: clean-build clean-pyc clean-test
 clean-build:
 	rm -fr build/
 	rm -fr dist/
+	rm -fr out/
 	rm -fr .eggs/
-	find . -name '*.egg-info' -exec rm -fr {} +
-	find . -name '*.egg' -exec rm -f {} +
+	# find . -name '*.egg-info' -exec rm -fr {} +
+	# find . -name '*.egg' -exec rm -fr {} +
 
 clean-pyc:
 	find . -name '*.pyc' -exec rm -f {} +
@@ -59,8 +60,10 @@ docs:
 	open docs/_build/html/index.html
 
 release: clean
-	python setup.py sdist upload
-	python setup.py bdist_wheel upload
+	python setup.py sdist
+	python setup.py bdist_wheel
+	pyinstaller xserverpy.py --onefile -F --distpath out/
+	twine upload dist/*
 
 dist: clean
 	python setup.py sdist

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+from xserverpy.utils import version
 
 try:
     from setuptools import setup
@@ -26,7 +26,7 @@ test_requirements = [
 
 setup(
     name='xserverpy',
-    version='0.1.0',
+    version=version.VERSION,
     description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
     author="Omar Abdelhafith",
     author_email='o.arrabi@me.com',
