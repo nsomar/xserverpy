@@ -40,7 +40,8 @@ lint:
 	flake8 xserverpy tests
 
 test:
-	py.test tests
+	# py.test tests
+	python setup.py test
 
 test-all:
 	tox
