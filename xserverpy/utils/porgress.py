@@ -6,36 +6,35 @@ import config
 class Progress():
 
     def __init__(self):
-        self.step_counter = -1
         self.steps_done = 0
 
-    def is_tty(self):
-        return config.tty
+    def increment(self, title=None, prefix="\n"):
+        self.print_done_if_needed()
+        self.step_counter = 0
 
-    def increment(self, title):
-        if self.steps_done > 0:
-            if self.is_tty():
+        if title:
+            print("%s%s" % (prefix, title))
+
+        self.steps_done += 1
+
+    def print_done_if_needed(self):
+        if self.steps_done > 0 and self.step_counter > 0:
+            if config.tty:
                 success('\b\bDone ')
             else:
                 success(' Done ')
 
-        print("\n%s" % title)
-
-        if self.is_tty():
-            print 'Loading....  ',
-        else:
-            print 'Loading.',
-
-        self.steps_done += 1
-
     def done(self):
-        if self.is_tty() and self.steps_done > 0:
-            success('\b\b Done ')
+        if config.tty and self.steps_done > 0:
+            success('\b\bDone ')
         else:
             success(' Done ')
 
     def step(self):
-        if self.is_tty():
+        if self.step_counter == 0 and not config.tty:
+            print 'Loading.',
+
+        if config.tty:
             self.progress()
         else:
             sys.stdout.write('.')
@@ -44,13 +43,17 @@ class Progress():
         self.step_counter += 1
 
     def progress(self):
+        sys.stdout.write("\r")
+        sys.stdout.write("\033[K")
+        sys.stdout.write('Loading.... ')
+
         if (self.step_counter % 4) == 0:
-            sys.stdout.write('\b\b\b / ')
+            sys.stdout.write('/ ')
         elif (self.step_counter % 4) == 1:
-            sys.stdout.write('\b\b\b - ')
+            sys.stdout.write('- ')
         elif (self.step_counter % 4) == 2:
-            sys.stdout.write('\b\b\b \\ ')
+            sys.stdout.write('\\ ')
         elif (self.step_counter % 4) == 3:
-            sys.stdout.write('\b\b\b | ')
+            sys.stdout.write('| ')
 
         sys.stdout.flush()

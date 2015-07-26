@@ -155,6 +155,6 @@ def get_bot(settings, args):
 def is_id(string):
     try:
         int(string, 16)
-        return True
+        return len(string) > 30
     except:
         return False
