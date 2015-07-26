@@ -24,7 +24,8 @@ requirements = [
 ]
 
 test_requirements = [
-    "vcrpy"
+    "vcrpy",
+    "mock"
 ]
 
 setup(

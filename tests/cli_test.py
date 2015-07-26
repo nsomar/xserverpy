@@ -27,6 +27,7 @@ class CliTests(unittest.TestCase):
                 "--user", 'Omar Abdelhafith',
                 "--pass", "omaromar123"]
 
+        sys.argv = args
         out = ""
         with Capturing() as output:
             start_with_args(args)
@@ -42,6 +43,7 @@ class CliTests(unittest.TestCase):
                 "--user", 'Omar Abdelhafith',
                 "--pass", "omaromar123"]
 
+        sys.argv = args
         out = ""
         with Capturing() as output:
             start_with_args(args)
@@ -57,6 +59,7 @@ class CliTests(unittest.TestCase):
                 "--user", 'Omar Abdelhafith',
                 "--pass", "omaromar123"]
 
+        sys.argv = args
         out = ""
         with Capturing() as output:
             start_with_args(args)
@@ -64,3 +67,18 @@ class CliTests(unittest.TestCase):
 
         self.assertIn("Testbots Bot  88c98ee21f3895749ec3888b930017be" +
                       "                       139", out)
+
+    @vcr.use_cassette('tests/fixtures/vcr_cassettes/integration_running.yaml')
+    def test_can_list_running_integrations(self):
+        args = ["integrations", "running",
+                "--host", "https://127.0.0.1",
+                "--user", 'Omar Abdelhafith',
+                "--pass", "omaromar123"]
+
+        sys.argv = args
+        out = ""
+        with Capturing() as output:
+            start_with_args(args)
+            out = output
+
+        self.assertIn("1 Integrations running currently", out)

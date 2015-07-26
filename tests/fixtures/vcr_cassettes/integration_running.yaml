@@ -1,0 +1,83 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic YWE6cGFzcw==]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: GET
+    uri: https://127.0.0.1/xcode/api/integrations/running
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4WNSw4CIRAF7/LWLPhopuEaLo0x0tMTjQqGgRXh7nKD2VaqUh2cW6oIRqHI3j51
+        R7h2xDxZx/21IoCIPYlYszny5+XkhR0RRe+0NksUDHVo2ofI6qCQ2jdKQbB6LrmVIqleqvxmzU/h
+        d24V4zb+WVT5pZkAAAA=
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Sat, 25 Jul 2015 23:50:28 GMT']
+      keep-alive: ['timeout=5, max=100']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AvzhZqVL3LwtFQ0Wfsz3w1la3MaBfqy5H.H%2FrUwXnJIpaYyngHpRSYcaKC8Spoz8%2Fk4H3r6ppmGTY;
+          Path=/; Expires=Sun, 26 Jul 2015 23:50:28 GMT; HttpOnly; Secure']
+      vary: [Accept-Encoding]
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [OK]
+      x-xcsresultslist: ['true']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic YWE6cGFzcw==]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.7.0 CPython/2.7.9 Darwin/15.0.0]
+    method: GET
+    uri: https://127.0.0.1/xcode/api/integrations/88c98ee21f3895749ec3888b932aeed3
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+1X227bRhD9lYLPprzcXV6Wb7xIrdEgMSwlLRIEBrkcSqwlklkunaiB/72zpC6O
+        6jZy0Ie2CCBAEncuZ2YOZ2Y/W7dVYYVWEEgRAFCnZIFwfS5AsiAIcsFoBlAw68K6VXCPkp7NKOPg
+        SFe4ueMEhZM7sigLVgKRAQQFRdm80Vb4+au2CXH8HI62mXBtRnxPMlFkvpflZSGCzGWEM3ACwlzP
+        LVF6qZq+NfbrbAOoFnnxjLIZtcV0ltp85gpbuJ5nJ17KfUE9nojYeriwZFOX1bJXma6a2ujnfbXW
+        M9VskjVk+IRcWC2oqikqOZcrKPo1XNUa1H22Hg5lU0DS3IPKlnCtoAQFtUQEdNArG7XpFtDpSI4O
+        ymzdwYWlVbVcguqs8N37o2BUZ+vt73Ai26HbDbwc4zK2MJMdhgyf2kbp7lo1RS8HyJGSq+oexbTq
+        jROUreplCveVhKt056wY/s5bkFVZyUPcJYY9AvpstetMG0DHenGfY7ECHhAH/MATQGnOuGQ0IARr
+        HyCcoupQb7vDWb2aH2vI7UxSh3Du0NJzSlK4lFGv8HK/dHMoCJh6d9WmR7+Nuiqg1ogNFKrKZjPJ
+        2nYNkz2oSdWumhoO4qhanaXRmKSZ8hYv+00+yDos4oy4SzzACnZDKiwxIYYZY0IW2xaGOmcmtxqk
+        7hXsHj4csnmEPCQZtT8C3K23e8ak2XYwsqnqHqsSlWj5p6ZXi8ZwaYnsG510O/nRAbuwVij0qtwL
+        DfjII76M9d7z5aTq5mvQOcTQoTWJbK21atbxuodWVfXwVqZvFvPHh7806q5rMwkHqRfNyJXuZ9ga
+        DcKnhAVx7DvMif005YkjZq4rpnyWRCSOp1M/JX7Cn7Ieq6yWq2PSBpPWJuswLViKp8VftUf31OF/
+        FvtrzCYBo4+nTVsPD+eYu1bVJlPbG9g0Gm6gbboK+bcdLZ+dj3M8mSdYw6Rpt0c/JxU4C/Ip1qjX
+        K5P10dJcG+YtK/gnivpc539TlKyr5JNIt2dW6lH+5hoVnx8fOcvPKYW5wymNCbfjaDq1uWCpHQci
+        sn3ix9MkclJK6XMJcJ3p1fPxD23g1kyKS+usUEzfHoN4NGK+rvZm3zYpYecREpsy9iwT1aLB2fUb
+        ttQv/U4+mZna4tFZCE5Ytifzu29h6OubFyOWldZtF15eLiu96vMJzpTLJlMqy6vLQ2InePgtCLfz
+        LTa6zejoOK0KPfnVBD4Zu7QcrU1+/EYnp9Q8mzoP7807puBDXynoXrc4eAo4LCP1l2vID3Fj4Olh
+        wjg4iY+T6lY2vVmUDDXwpGjk7Sg2bIKoU9XbqxT/Uk54nJgVYo0T4AYHqmHUf2c87V3vkY/iBXMZ
+        z4RLJOW5kJwCrrhO4cscfwaB4F4gJATOWfPOJf/rcXeaaj8VsyiZ+Tafpri8c07tIPATO/WjmFEa
+        cc9PvrfR7230399GO1zg18XuKrlrobJXeEfUcw2tQb4Cedf0Bl29u5YM/fJDDz0U6XAzsPCJaxPf
+        pu6CMuwGIfUmHnHfmmtTLyV03W2nFWR3w5r/qNU+6sePWy6nInHjYH8fmuN1Fm8xM3xVQO2arsVm
+        oReHXhAmQejEYTQNIxGKNJxOQ4eG3A2nUUjScBaZD2chd8KIhghPmHdTZ8vdfbPTmdJQLKrN05H4
+        E9cXb62HPwCL5V02dxAAAA==
+    headers:
+      connection: [Keep-Alive]
+      content-encoding: [gzip]
+      content-type: [application/json]
+      date: ['Sat, 25 Jul 2015 23:50:28 GMT']
+      keep-alive: ['timeout=5, max=100']
+      ms-author-via: [DAV]
+      server: [Apache]
+      set-cookie: ['session=s%3AsILVj7zX4NyxlNxRpTJNDsiiG6qac8a3.CImYJT16vow%2BRIpmOPT%2FfbHgz9835HR%2FV1%2Bu0U7Vu3Y;
+          Path=/; Expires=Sun, 26 Jul 2015 23:50:28 GMT; HttpOnly; Secure']
+      vary: [Accept-Encoding]
+      x-xcsapiversion: ['3']
+      x-xcsresponse-status-title: [OK]
+    status: {code: 200, message: OK}
+version: 1

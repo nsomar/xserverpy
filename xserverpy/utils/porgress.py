@@ -1,5 +1,6 @@
 from config import *
 import sys
+import config
 
 
 class Progress():
@@ -9,10 +10,9 @@ class Progress():
         self.steps_done = 0
 
     def is_tty(self):
-        return sys.stdout.isatty()
+        return config.tty
 
     def increment(self, title):
-        self.step_counter = -1
         if self.steps_done > 0:
             if self.is_tty():
                 success('\b\bDone ')
@@ -38,9 +38,8 @@ class Progress():
         if self.is_tty():
             self.progress()
         else:
-            if self.step_counter % 4 == 0:
-                sys.stdout.write('.')
-                sys.stdout.flush()
+            sys.stdout.write('.')
+            sys.stdout.flush()
 
         self.step_counter += 1
 

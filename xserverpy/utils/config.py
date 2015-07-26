@@ -1,10 +1,8 @@
 from termcolor import colored
-import os
+import sys
 
-
-global verbose
 verbose = False
-SAVED_DESCRIPTORS = None
+tty = True
 
 
 def error(msg):

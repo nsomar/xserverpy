@@ -1,0 +1,26 @@
+[32mIntegration number '174' for bot 'Testbots Bot' started[0m
+Integration ID '88c98ee21f3895749ec3888b9325b0c7
+
+Pending for integration
+Loading. [32m Done [0m
+
+- Performing step: checkout
+Loading............[32m Done [0m
+
+- Performing step: building
+Loading...[32m Done [0m
+
+- Performing step: archiving
+Loading....[32m Done [0m
+
+- Performing step: processing
+Loading..[32m Done [0m
+
+- Performing step: uploading
+Loading..[32m Done [0m
+
+- Performing step: completed
+Loading. [32m Done [0m
+
+[32mIntegration number '174' for bot 'Testbots Bot' completed successfully[0m
+Integration ID '88c98ee21f3895749ec3888b9325b0c7

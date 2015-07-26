@@ -2,7 +2,7 @@
 	"build_systems":
 	[
 		{
-			"name": "Build",
+			"name": "Build123",
 			"shell_cmd": "py.test",
 			"working_dir": "${project_path:${folder}}"
 		},

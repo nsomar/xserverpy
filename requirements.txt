@@ -6,3 +6,4 @@ termcolor
 tabulate
 pytz
 tzlocal
+mock
