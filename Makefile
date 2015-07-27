@@ -52,6 +52,9 @@ coverage:
 	coverage html
 	open htmlcov/index.html
 
+coverage-no-open:
+	coverage run --source xserverpy setup.py test
+
 docs:
 	rm -f docs/xserverpy.rst
 	rm -f docs/modules.rst
