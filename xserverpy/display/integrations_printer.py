@@ -31,6 +31,6 @@ class IntegrationsPrinter():
 
     @classmethod
     def prepare(cls, integration):
-        return [integration.bot.name, integration.number, integration.tiny_id,
+        return [integration.bot.name, integration.number, integration.id,
                 integration.step, integration.result,
                 integration.date_string()]

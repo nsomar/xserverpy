@@ -16,7 +16,7 @@ class Integration():
                            id=json["_id"],
                            result=json.get("result", "in progress"),
                            step=json["currentStep"],
-                           bot=Bot.from_json(json["bot"]),
+                           bot=Bot.from_json(json.get("bot", None)),
                            tiny_id=json.get("tinyID", ""),
                            date=date)
 
