@@ -51,3 +51,6 @@ class Integration():
 
     def succeeded(self):
         return self.result == "succeeded"
+
+    def completed_with_warnings(self):
+        return self.result == "warnings"

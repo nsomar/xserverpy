@@ -73,10 +73,16 @@ class IntegrationWatcher():
         if integration.succeeded():
             success("Integration number '%s' for bot '%s' completed successfully" %
                     (integration.number, integration.bot.name))
-            info("Integration ID '%s" % integration.id)
-            return True
+
+            result = True
+        elif integration.completed_with_warnings():
+            warn("Integration number '%s' for bot '%s' completed with warnings" %
+                (integration.number, integration.bot.name))
+            result = True
         else:
             error("Integration number '%s' for bot '%s' failed with result '%s'" %
                   (integration.number, integration.bot.name, integration.result))
-            info("Integration ID '%s" % integration.id)
-            return False
+            result = False
+
+        info("Integration ID '%s" % integration.id)
+        return result
