@@ -1,6 +1,7 @@
 # Xserverpy
 
-[![Build Status](https://travis-ci.org/oarrabi/xserverpy.svg?branch=master)](https://travis-ci.org/oarrabi/xserverpy)  [![PyPI version](https://badge.fury.io/py/xserverpy.svg)](http://badge.fury.io/py/xserverpy)
+[![Build Status](https://travis-ci.org/oarrabi/xserverpy.svg?branch=master)](https://travis-ci.org/oarrabi/xserverpy)  [![Coverage Status](https://coveralls.io/repos/oarrabi/xserverpy/badge.svg?branch=master&service=github)](https://coveralls.io/github/oarrabi/xserverpy?branch=master)
+  [![PyPI version](https://badge.fury.io/py/xserverpy.svg)](http://badge.fury.io/py/xserverpy)
 
 Xserverpy makes it possible to use Xcode bots from the command line.
 <br/>
